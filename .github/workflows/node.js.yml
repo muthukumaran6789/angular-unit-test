@@ -30,4 +30,4 @@ jobs:
       env:
        CI: false
     - run: npm run build --if-present
-    - run: npm test:prod
+    - run: npm test
